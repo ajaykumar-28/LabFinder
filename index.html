@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Guide</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        .col-md-4{
+          padding-top: 20px;
+        }
+      
+        html{
+          scroll-behavior: smooth;
+        }
+        #btn-back-to-top {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">LabGuide</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Department
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#cse">Computer Science and Engineering(CSE)</a>
+                <a class="dropdown-item" href="#it">Information technology (IT)</a>
+                <a class="dropdown-item" href="#ece">Electronics and Communication Engineering(ECE)</a>
+                <a class="dropdown-item" href="#eee">Electrical and Electronics Engineering(EEE)</a>
+                <a class="dropdown-item" href="#mech">Mechanical Engineering(ME)</a>
+                <a class="dropdown-item" href="#che">Chemical Engineering(CE)</a>
+
+              </div>
+            </li>
+           
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input id="myInput" onkeyup="search()" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    
+
+    <div id="cse">
+      <br><br>
+      
+        <div class="container">
+          <h1>Computer Science and Engineering</h1>
+            <div class="row gy-3">
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./asserts/acc.jpg" alt="Carddddd image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">ACC LAB</h5>
+                          <p class="card-text">ACC lab is present in the <b>1st floor</b> of <b>CYBER Block</b> just beside the <b>lift</b> </p>
+                          <p class="card-text">
+              
+                              <a href="https://www.google.com/maps/dir/?api=1&destination=16.2538140, 80.3226040"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                        </p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./asserts/c1c2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">C1 LAB</h5>
+                          <p class="card-text">C1 lab is present in the <b>1st floor</b> of <b>CYBER Block</b></p>
+                          <p class="card-text">
+              
+                              <a href="https://www.google.com/maps/dir/?api=1&destination=16.2536267, 80.3234033"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                        </p>          </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./asserts/c1c2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">C2 Lab</h5>
+                          <p class="card-text">C2 and C1 labs are present together in the <b>1st floor</b> of <b>CYBER Block</b></p>
+                          <p class="card-text">
+              
+                              <a href="https://www.google.com/maps/dir/?api=1&destination=16.2536267, 80.3234033"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                        </p>          </div>
+                      </div>
+                </div>
+          
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./asserts/c3c4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">C3 Lab</h5>
+                          <p class="card-text">C3 Lab is present in the center of the <b>1st floor</b> of <b>CYBER Block</b></p>
+                          <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.2537976, 80.3231994"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p></div>
+                    </div>
+                </div>
+                <div class="col-md-4">   
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./asserts/c3c4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">C4 Lab</h5>
+                          <p class="card-text">C4 Lab is present in the center of the <b>1st floor</b> of <b>CYBER Block</b>. C1 and C2 labes are present together</p>
+                          <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.2537976, 80.3231994"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">   
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/communication.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Communication Skills Lab</h5>
+                        <p class="card-text">Communication Skills Lab is present in the  <b>1st floor</b> of <b>CYBER Block</b></p>
+                        <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.2537976, 80.3231994"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p></div>
+                  </div>
+              </div>
+                <div class="col-md-4">   
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/iot.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">IOT LAB</h5>
+                        <p class="card-text">IOT Lab is present in the <b>ground floor</b> of <b>CYBER Block</b></p>
+                        <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.2537976, 80.3231994"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p></div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">   
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/elearning.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">E learning Lab</h5>
+                      <p class="card-text">E learning Lab is present in the  <b>ground floor</b> of <b>CYBER Block</b></p>
+                      <p class="card-text">
+        
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=16.2537976, 80.3231994"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                  </p></div>
+                </div>
+            </div>
+
+            </div>
+          
+        </div>
+    </div>
+
+
+    <div id="it">
+      
+      <div class="container">
+
+        <h1>Information technology</h1>
+        <div class="row gy-3">
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/ht1.png" alt="Carddddd image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">HT1 Lab (HiTech lab 1) </h5>
+                        <p class="card-text">HT1 lab is present in the <b>1st floor</b> of <b>HiTech Block</b> just beside the <b>inner basketball court</b> </p>
+                        <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.2545090, 80.3232289"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/ht1.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">HT2 Lab (HiTech lab 2) </h5>
+                      <p class="card-text">HT2 lab is present in the <b>1st floor</b> of <b>HiTech Block</b> just beside the <b>inner basketball court</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.2545090, 80.3232289"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+             
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/ht3.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">HT3 Lab (HiTech lab 3)</h5>
+                        <p class="card-text">HT3 Lab (HiTech lab 3) is present in the <b>1st floor</b> of <b>HiTech Block</b> just beside the <b>inner basketball court</b></p>
+                        <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.2545933,  80.3233416"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>          </div>
+                    </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/ht4.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">HT4 Lab (HiTech lab 4)</h5>
+                      <p class="card-text">HT4 Lab (HiTech lab 4) is present in the <b>1st floor</b> of <b>HiTech Block</b> just beside the <b>inner basketball court</b></p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.2545659, 80.3233915"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>          </div>
+                  </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                  <img class="card-img-top" src="./asserts/ht5.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">HT5 Lab (HiTech lab 5)</h5>
+                    <p class="card-text">HT5 Lab (HiTech lab 5) is present in the <b>1st floor</b> of <b>HiTech Block</b> just beside the <b>inner basketball court</b></p>
+                    <p class="card-text">
+        
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=16.2545659, 80.3233915"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                  </p>          </div>
+                </div>
+          </div>  
+
+        </div>
+        
+      </div>
+    </div>
+
+    <div id="ece">
+      
+      <div class="container">
+        <h1>Electronics and Communication Engineering</h1>
+          
+        <div class="row gy-3">
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/ecl.png" alt="Carddddd image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Electronic Circuits (ECL) Lab </h5>
+                        <p class="card-text">ECL lab is present in the <b>ground floor</b> of <b>Digital Block</b></p>
+                        <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.2540107, 80.3227619"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/nc1.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">NC1</h5>
+                      <p class="card-text">NC1 lab is present in the <b>1st floor</b> of <b>Digital Block</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.2540822, 80.3227361"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+             
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/mac.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Microwave and Advanced communication Engineering (MAC)lab</h5>
+                        <p class="card-text">MAC Lab is present in the <b>1st floor</b> of <b>Digital Block</b> </p>
+                        <p class="card-text">
+                          
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.2545386,80.3228853"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>          </div>
+                    </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/ce.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Communication Engineering(CE) lab</h5>
+                      <p class="card-text">Communication Engineering(CE) lab is present in the <b>ground floor</b> of <b>Digital Block</b></p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.2541095, 80.3228554"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>          </div>
+                  </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                  <img class="card-img-top" src="./asserts/ds.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Systems (DS) lab</h5>
+                    <p class="card-text">Digital Systems (DS) lab is present in the <b>1st floor</b> of <b>Digital Block</b></p>
+                    <p class="card-text">
+        
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=16.2546126, 80.3228893"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                  </p>          </div>
+                </div>
+          </div>
+
+        </div>    
+
+      </div>
+    </div>
+
+
+    <div id="eee">
+      
+      <div class="container">
+
+        <h1>Electrical and Electronics Engineering</h1>
+        <div class="row gy-3">
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/bee.png" alt="Carddddd image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Basic Electrical Engineering (BEE) Lab </h5>
+                        <p class="card-text">Basic Electrical Engineering (BEE) Lab is present beside <b>open air theater</b> </p>
+                        <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.255125342390077, 80.32318329255756"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/aml.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Advanced machines (AM) lab</h5>
+                      <p class="card-text">Advanced machines (AM) lab lab is present in the <b>main block 1st floor</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.255363192845337, 80.32406737291599"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+             
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/eml.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Electrical measurement(EM) lab</h5>
+                        <p class="card-text">Electrical measurement(EM) lab is present in the <b>main block 1st floor</b> </p>
+                        <p class="card-text">
+                          
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.255493229492718, 80.32413576923734"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>          </div>
+                    </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/aml.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Advanced machines lab</h5>
+                      <p class="card-text">Advanced machines lab lab is present in the <b>main block 1st floor</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.255363192845337, 80.32406737291599"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+        
+        </div>
+
+      </div>
+    </div>
+
+    <div id="mech">
+      
+      <div class="container">
+
+        <h1>Mechanical Engineering</h1>
+        <div class="row gy-3">
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/physics.png" alt="Carddddd image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Physics Lab </h5>
+                        <p class="card-text">Physics Lab is present <b>at ground floor of silver jubilee block</b> </p>
+                        <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.25782725391161, 80.32410206515895"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/automotive.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Automotive lab</h5>
+                      <p class="card-text">Automotive lab is present at <b>ground floor of decennial block</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.256515466832564, 80.3244943500586"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+             
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/agro.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Agro machinary (AML) lab</h5>
+                        <p class="card-text">Agro machinary (AML) lab is present at <b>ground floor decennial block</b> </p>
+                        <p class="card-text">
+                          
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.256246878263614, 80.32444192090892"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>          </div>
+                    </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/cad.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">CAD lab</h5>
+                      <p class="card-text">CAD lab is present in the <b>1st floor of silver jubilee block</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.257520631897716, 80.32390055393661"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="che">
+      
+      <div class="container">
+
+        <h1>Chemical Engineering</h1>
+        <div class="row gy-3">
+
+
+          <div class="col-md-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="./asserts/chemistry.png" alt="Carddddd image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Chemistry Lab </h5>
+                  <p class="card-text">Chemistry Lab is present at <b>ground floor of silver jubilee block</b> </p>
+                  <p class="card-text">
+      
+                      <a href="https://www.google.com/maps/dir/?api=1&destination=16.257742037353694, 80.32425412864637"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                </p>
+                </div>
+              </div>
+        </div>
+
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/cr.png" alt="Carddddd image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Chemical Reaction Engineering (CRE) Lab </h5>
+                        <p class="card-text">Chemical Reaction Engineering (CRE) Lab is present in <b>1st floor of chemical block</b> </p>
+                        <p class="card-text">
+            
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.256351955168174, 80.32404003405243"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/pc.png" alt="Carddddd image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Pollution control (PC) lab</h5>
+                      <p class="card-text">Pollution control (PC) lab is present in the <b>1st floor of chemical block</b> </p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.256299217233725, 80.32405679772971"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+             
+
+              <div class="col-md-4">
+                  <div class="card h-100">
+                      <img class="card-img-top" src="./asserts/rc.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Research Centre</h5>
+                        <p class="card-text">Research Centre is present in the <b>1st floor of chemical block</b> </p>
+                        <p class="card-text">
+                          
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=16.256371960203754, 80.3239810252961"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                      </p>          </div>
+                    </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./asserts/chemical.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">chemical technology lab</h5>
+                      <p class="card-text">chemical technology lab is present in the <b>ground floor</b> of <b>Chemical block</b></p>
+                      <p class="card-text">
+          
+                          <a href="https://www.google.com/maps/dir/?api=1&destination=16.256279261032805, 80.32429216165956"><button type="button" class="btn btn-primary">Navigate Location</button></a>
+                    </p>          </div>
+                  </div>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <button
+        type="button"
+        class="btn btn-primary btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
